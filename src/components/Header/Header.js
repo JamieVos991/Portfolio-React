@@ -15,7 +15,7 @@ const Header = () => {
         <>
             <header className="header container">
                 <div className="fullscreen-video-wrap">
-                    <video src={Video} type="video/mp4" class="video-player" autoplay="autoplay" loop muted playsinline></video>
+                    <video src={Video} type="video/mp4" className="video-player" autoplay="autoplay" loop muted playsinline></video>
                 </div>
                 <div className="header-overlay"></div>
                 <div className="header-content">

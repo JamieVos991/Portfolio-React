@@ -6,7 +6,6 @@
   }
   
   .header-content {
-    z-index: 99;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -21,7 +20,7 @@
   .header-content h1 {
     font-size: 60px;
     text-align: center;
-    z-index: 99;
+    z-index: -1;
   }
   
   .header-content p {
@@ -51,6 +50,5 @@
     top: 0;
     left: 0;
     background: #0a0a0a;
-    z-index: 1;
     opacity: 0.6;
   }
