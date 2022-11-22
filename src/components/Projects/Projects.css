@@ -40,7 +40,7 @@
 }
 
 .card__background {
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   border-radius: 24px;
   bottom: 0;
@@ -57,6 +57,10 @@
   transition:
     filter 200ms linear,
     transform 200ms linear;
+}
+
+.card__background:nth-child(1) {
+  background-size: auto;
 }
 
 .card:hover .card__background {
@@ -120,4 +124,88 @@
   .card-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+
+.modal {
+  font-family: arial;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1040;
+  width: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1040;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.95;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.modal-header {
+
+}
+
+.modal-desc,
+.modal-header,
+.modal-footer {
+  padding: 12px;
+}
+
+.close-button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  border: none;
+  background-color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.secondary-button {
+  color: #fff;
+  background-color: #6c757d;
+}
+.primary-button {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.modal-example {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

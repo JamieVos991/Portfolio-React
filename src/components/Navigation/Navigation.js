@@ -2,6 +2,7 @@ import "./Navigation.css";
 import { useRef } from "react";
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navigation = (props) => {
 
@@ -16,10 +17,10 @@ const Navigation = (props) => {
 
         <header className="header__nav">
             <nav ref={navRef}>
-                <a href="/#">Home</a>
-                <a href="/#">Skills</a>
-                <a href="/#">Blog</a>
-                <a href="/#">Contact</a>
+                <Link to="/"><a href="/#">Home</a></Link>
+                <Link to="/skills"><a href="/#">Skills</a></Link>
+                <Link to="/blog"><a href="/#">Blog</a></Link>
+                <Link to="/contact"><a href="/#">Contact</a></Link>
                 <div className="nav__btn nav__btn--close" onClick={showNavbar}>
                     <FaTimes />
                 </div>

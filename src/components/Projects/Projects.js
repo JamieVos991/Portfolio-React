@@ -1,14 +1,16 @@
 import "./Projects.css";
 import Project from "./Project";
 import React from "react";
+import PokemonApp from "../../img/PokemonApp.jpg";
+import PolitieZO from "../../img/PolitieZO.jpg";
 
 const Projects = () => {
 
     return (
         <section className="projects__section">
             <div class="card-grid">
-                <Project fa1="fa-brands fa-html5" fa2="fa-brands fa-css3" fa3="fa-brands fa-js" img="https://img.freepik.com/vrije-photo/groothoekopname-van-een-enkele-boom-die-groeit-onder-een-bewolkte-hemel-tijdens-een-zonsondergang-omgeven-door-gras_181624-22807.jpg?w=2000" />
-                <Project fa1="fa-brands fa-css3" fa2="fa-brands fa-js" fa3="fa-brands fa-react" img="https://img.freepik.com/vrije-photo/groothoekopname-van-een-enkele-boom-die-groeit-onder-een-bewolkte-hemel-tijdens-een-zonsondergang-omgeven-door-gras_181624-22807.jpg?w=2000"/>
+                <Project fa1="fa-brands fa-html5" fa2="fa-brands fa-css3" fa3="fa-brands fa-js" img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png" />
+                <Project fa1="fa-brands fa-css3" fa2="fa-brands fa-js" fa3="fa-brands fa-react" img={PolitieZO}/>
                 <Project fa1="fa-brands fa-css3" fa2="fa-brands fa-js" fa3="fa-brands fa-react" img="https://img.freepik.com/vrije-photo/groothoekopname-van-een-enkele-boom-die-groeit-onder-een-bewolkte-hemel-tijdens-een-zonsondergang-omgeven-door-gras_181624-22807.jpg?w=2000"/>
                 <Project fa1="fa-brands fa-css3" fa2="fa-brands fa-js" fa3="fa-brands fa-react" img="https://img.freepik.com/vrije-photo/groothoekopname-van-een-enkele-boom-die-groeit-onder-een-bewolkte-hemel-tijdens-een-zonsondergang-omgeven-door-gras_181624-22807.jpg?w=2000"/>
                 <Project fa1="fa-brands fa-unity" fa2="fa-brands fa-c" fa3="fa-brands fa-trello" img="https://img.freepik.com/vrije-photo/groothoekopname-van-een-enkele-boom-die-groeit-onder-een-bewolkte-hemel-tijdens-een-zonsondergang-omgeven-door-gras_181624-22807.jpg?w=2000"/>
