@@ -21,6 +21,7 @@ const Navigation = (props) => {
                 <Link to="/skills"><a href="/#">Skills</a></Link>
                 <Link to="/blog"><a href="/#">Blog</a></Link>
                 <Link to="/contact"><a href="/#">Contact</a></Link>
+                <a href="#">Login</a>
                 <div className="nav__btn nav__btn--close" onClick={showNavbar}>
                     <FaTimes />
                 </div>

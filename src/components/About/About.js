@@ -1,5 +1,5 @@
 import "./About.css";
-import Logo from "./PP.jpg";
+import Logo from "../../img/PP.jpg";
 
 const About = (props) => {
     return (
