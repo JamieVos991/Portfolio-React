@@ -36,11 +36,11 @@ const Project = (props) => {
             <div>
             <div className="modal-header">
                 <div className="modal-title">
-                    <h1>asd</h1>
+                    <h1>{props.title}</h1>
                 </div>
             </div>
             <div className="modal-desc">
-                <p>asd</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda autem excepturi dolore, porro sunt tempore vero. Alias assumenda, dolorem veniam inventore atque, pariatur nihil, deserunt laboriosam eligendi necessitatibus et.</p>
             </div>
             <div className="modal-footer">
             </div>

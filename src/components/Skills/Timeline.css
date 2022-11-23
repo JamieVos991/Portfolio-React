@@ -3,7 +3,8 @@
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
-
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7rem;
   display: flex;
   justify-content: center;
   padding: 20px;
