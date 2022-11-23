@@ -59,10 +59,6 @@
     transform 200ms linear;
 }
 
-.card__background:nth-child(1) {
-  background-size: auto;
-}
-
 .card:hover .card__background {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
