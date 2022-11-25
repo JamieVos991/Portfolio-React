@@ -3,14 +3,13 @@
 
 /* Blog */
 
-section {
-    padding: 3rem 0 2rem;
-}
+
 
 .container {
     max-width: 1068px;
     margin: auto;
     width: 100%;
+    padding: 3rem 0 2rem;
 }
 
 .home {
