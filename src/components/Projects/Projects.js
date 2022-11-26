@@ -13,7 +13,16 @@ const Projects = () => {
     return (
         <section className="projects__section">
             <div class="card-grid">
-                <Project title="Pokemon App" fa1="fa-brands fa-css3" fa2="fa-brands fa-html5" fa3="fa-brands fa-react" img={PokemonApp} />
+                <Project 
+                    title="Pokemon App" 
+                    skill="React"
+                    skill2="HTML"
+                    skill3="CSS" 
+                    skill4="JS"
+                    fa1="fa-brands fa-css3" 
+                    fa2="fa-brands fa-html5" 
+                    fa3="fa-brands fa-react" 
+                    img={PokemonApp} />
                 <Project title="Politie ZO" fa1="fa-brands fa-css3" fa2="fa-brands fa-html5" fa3="fa-brands fa-js" img={PolitieZO}/>
                 <Project title="Pokemon Dashboard" fa1="fa-brands fa-css3" fa2="fa-brands fa-html5" fa3="fa-brands fa-react" img={Dashboard}/>
                 <Project title="Sound sensor App" fa2="fa-brands fa-c" img={SoundSensorApp}/>

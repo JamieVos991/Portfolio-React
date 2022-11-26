@@ -36,12 +36,14 @@ const Project = (props) => {
                             <h1>{props.title}</h1>
                         </div>
                         <div className="model-time">🕒 1 week</div>
-                        <div className="model-skills-title">Skills</div>
+                        <div className="model-skills-title">Skils</div>
                         <div className="model-skills">
-                            <div className="model-html">HTML</div>
-                            <div className="model-html">HTML</div>
-                            <div className="model-html">HTML</div>
+                            <div className="model-html">{props.skill}</div>
+                            <div className="model-html">{props.skill2}</div>
+                            <div className="model-html">{props.skill3}</div>
+                            <div className="model-html">{props.skill4}</div>
                         </div>
+                        <div className="model-button">View Project</div>
                     </div>
                 </div>
                 <div className="model-show-2">
@@ -49,9 +51,8 @@ const Project = (props) => {
     
                     </div>
                     <div className="modal-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda autem excepturi dolore, porro sunt tempore vero. Alias assumenda, dolorem veniam inventore atque, pariatur nihil, deserunt laboriosam eligendi necessitatibus et., Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda autem excepturi dolore, porro sunt tempore vero. Alias assumenda, dolorem veniam inventore atque, pariatur nihil, deserunt laboriosam eligendi necessitatibus et.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid debitis, exercitationem maiores alias ut expedita soluta eos illo, cumque facilis cupiditate dolores ipsa dolor praesentium voluptate esse libero placeat nobis!</p>
                     </div>
-                    <div className="model-button">View Project</div>
                 </div>
             </div>
         </Modal>    
