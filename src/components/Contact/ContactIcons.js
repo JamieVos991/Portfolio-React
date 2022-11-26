@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Contact.css";
 import ContactIcon from './ContactIcon';
+import Footer from "../Footer/Footer";
 
 function ContactIcons() {
   return (

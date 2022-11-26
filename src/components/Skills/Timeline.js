@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Timeline.css";
+import Footer from "../Footer/Footer";
 
 function Timeline() {
   return (
+    <>
     <div class="timeline">
         <div class="outer">
             <div class="timeline__card">
@@ -42,6 +44,8 @@ function Timeline() {
             </div>
         </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 
