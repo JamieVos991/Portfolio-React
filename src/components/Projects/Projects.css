@@ -272,4 +272,14 @@ button {
       top: 7%;
       right: 3%;
     }
+
+    .esc {
+      display: none;
+    }
+}
+
+.esc {
+  font-style: italic;
+  font-size: 1.4rem;
+  color: rgb(61, 61, 61);
 }

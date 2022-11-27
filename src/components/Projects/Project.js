@@ -59,6 +59,7 @@ const Project = (props) => {
                         <p>{props.desc}</p>
                     </div>
                 </div>
+                <p className="esc">Press ESC to leave..</p>
             </div>
         </Modal>    
         </>
