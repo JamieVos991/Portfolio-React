@@ -283,3 +283,10 @@ button {
   font-size: 1.4rem;
   color: rgb(61, 61, 61);
 }
+
+
+@media screen and (max-width: 600px) {
+  .modal-title {
+    font-size: 1.8rem;
+  }
+}

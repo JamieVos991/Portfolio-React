@@ -13,6 +13,7 @@
   text-align: center;
 }
 
+
 .ss__a {
   display: inline-block;
   position: relative;
@@ -39,8 +40,8 @@ a:hover article {
 }
 
 a:nth-child(1):hover article {
-  color: #333;
-  background-color: #f5f5f5;
+  color: #f5f5f5;
+  background-color: #333;
 }
 
 a:nth-child(2):hover article {
@@ -48,11 +49,11 @@ a:nth-child(2):hover article {
 }
 
 a:nth-child(3):hover article {
-  background-color: #1DA1F2;
+  background-color: #0e76a8;
 }
 
 a:nth-child(4):hover article {
-  background-color: #CB2027;
+  background-color: #1DA1F2;
 }
 
 a:nth-child(5):hover article {
@@ -64,7 +65,7 @@ a:nth-child(6):hover article {
 }
 
 a:nth-child(7):hover article {
-  background-color: #0e76a8;
+  background-color: #CB2027;
 }
 
 a:nth-child(8):hover article {
