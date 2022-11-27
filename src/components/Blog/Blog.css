@@ -10,12 +10,13 @@
     margin: auto;
     width: 100%;
     padding: 3rem 0 2rem;
+    
 }
 
 .home {
     width: 100%;
     min-height: 400px;
-    background: brown; /* Fallback */
+    background: #212121; /* Fallback */
     animation: color 9s infinite linear;
     display: grid;
     justify-content: center;
@@ -51,6 +52,8 @@
     font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -62,6 +65,7 @@
 }
 
 .post {
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     justify-content: center;
@@ -92,7 +96,7 @@
 }
 
 .post-title {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: white;
     display: -webkit-box;
