@@ -27,26 +27,41 @@ const Project = (props) => {
             </div>
         </div>
 
-        <Modal
-            className="modal"
-            show={showModal}
-            onHide={handleClose}
-            renderBackdrop={renderBackdrop}
-                    >
-            <div>
-            <div className="modal-header">
-                <div className="modal-title">
-                    <h1>{props.title}</h1>
+        <Modal className="modal" show={showModal} onHide={handleClose} renderBackdrop={renderBackdrop}>
+            <div className="model-gap">
+                <div className="model-show">
+                    <div className="modal-header">
+                        <div className="model-opdracht">{props.type}</div>
+                        <div className="modal-title">
+                            <h1>{props.title}</h1>
+                        </div>
+                        <div className="model-time">🕒 {props.time}</div>
+                        <div className="model-skills-title">Skills</div>
+                        <div className="model-skills">
+                            <div className="model-html">{props.skill}</div>
+                            <div className="model-html">{props.skill2}</div>
+                            <div className="model-html">{props.skill3}</div>
+
+                        </div>
+                        <div className="model-icons">
+                            <a href={props.link} target="_blank">
+                                <i id="model-i" class="fa-brands fa-github" />
+                            </a>
+                        </div>
+                        {/* <div className="model-button">View Project</div> */}
+                    </div>
                 </div>
-            </div>
-            <div className="modal-desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda autem excepturi dolore, porro sunt tempore vero. Alias assumenda, dolorem veniam inventore atque, pariatur nihil, deserunt laboriosam eligendi necessitatibus et.</p>
-            </div>
-            <div className="modal-footer">
-            </div>
+                <div className="model-show-2">
+                    <div className="modal-header">
+    
+                    </div>
+                    <div className="modal-desc">
+                        <p>{props.desc}</p>
+                    </div>
+                </div>
+                <p className="esc">Press ESC to leave..</p>
             </div>
         </Modal>    
-
         </>
     )
  }

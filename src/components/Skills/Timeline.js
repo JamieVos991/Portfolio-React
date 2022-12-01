@@ -1,13 +1,15 @@
 import React from 'react'
 import "./Timeline.css";
+import Footer from "../Footer/Footer";
 
 function Timeline() {
   return (
+    <>
     <div class="timeline">
         <div class="outer">
             <div class="timeline__card">
                 <div class="info">
-                    <h3 class="title"> 2018</h3>
+                    <h3 class="title"> 2010</h3>
                     <p>I’ve been designing with computers since the day I first opened Microsoft Paint. The cusp of art and technology has always fascinated me and I've never been afraid to just jump in and give it a go, whether it's Paint, Photoshop, Sketch or CSS.</p>
                 </div>
             </div>
@@ -42,6 +44,8 @@ function Timeline() {
             </div>
         </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 
