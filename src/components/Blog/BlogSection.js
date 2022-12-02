@@ -4,8 +4,12 @@ import "./Blog.css";
 import Footer from '../Footer/Footer';
 import PortfolioImg from "../../img/Blog_Portfolio.jpg";
 import PolitieZO from "../../img/PolitieZO.jpg";
+import { useState } from 'react';
 
 function Blog() {
+
+  const [filterClass, setFilterClass] = useState(null);
+  
   return (
     <>
     <section class="home" id="home">
