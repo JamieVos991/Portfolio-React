@@ -5,11 +5,10 @@ import Footer from '../Footer/Footer';
 import PortfolioImg from "../../img/Blog_Portfolio.jpg";
 import PolitieZO from "../../img/PolitieZO.jpg";
 import { useState } from 'react';
+import Filter from './Filter';
 
 function Blog() {
 
-  const [filterClass, setFilterClass] = useState(null);
-  
   return (
     <>
     <section class="home" id="home">
@@ -20,10 +19,11 @@ function Blog() {
     </section>
 
     <div class="post-filter container">
-        <span class="filter-item active-filter" data-filter='all'>All</span>
-        <span class="filter-item" data-filter='design'>Design</span>
-        <span class="filter-item" data-filter='tech'>Tech</span>
-        <span class="filter-item" data-filter='mobile'>Mobile</span>
+        <Filter filterName="All"></Filter>
+        <Filter filterName="Mobile"></Filter>
+        <Filter filterName="Design"></Filter>
+        <Filter filterName="asd"></Filter>
+
     </div>
 
     <section class="post container">
